@@ -1,0 +1,79 @@
+
+body{
+	background-color:#186DB8 ;
+	margin: 0px;
+}
+.cabecera{
+	background-color: #0CEEE1;
+	padding: 2%;
+	text-align: center;
+	font-family: 'Joti One', cursive;
+
+}
+.menu-navegacion{
+	text-align: center;
+}
+.menu-navegacion li{
+	display: inline;
+}
+.menu-navegacion a{
+	background-color:aqua;
+	margin: 3%;
+	color:black;
+	padding: 3%;
+	display:inline-block;
+	text-decoration: none;
+	font-size: 18px;
+	width: 90px;
+	height: 30px;
+	text-align: center;
+   	border: 1.5px black dashed;
+ }
+.menu-navegacion li:hover a{
+	background-color: #186DB8;
+	border: 1.5px #0CEEE1  dashed;
+	color: white;
+}
+li.activo a{
+	background-color: #186DB8;
+	color: white;
+	border: 1.5px #0CEEE1  dashed;
+
+}
+
+
+img.izquierda {
+  float: left;
+  margin: 2%;
+  padding: 3%;
+}
+
+img.derecha {
+  float: right;
+  margin:2%;
+  padding: 3%;
+}
+.parrafo{
+	color:white;
+	padding: 3%;
+	margin: 3%;
+	border-top: 3%;
+
+}
+
+
+.footer{
+	padding: 4%;
+	margin-top: 5%;
+	margin-bottom: 3%;
+	border-bottom: 2%;
+	background: aqua;
+	background-color: #0CEEE1;
+	font-family: 'Joti One', cursive;
+}
+
+
+.derecha-footer{
+  float: right;
+ 
+}
